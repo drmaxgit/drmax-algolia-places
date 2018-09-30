@@ -57,7 +57,7 @@
     "replace-in-file": "3.4.2",
     "semver": "5.5.1",
     "uglify-js": "2.8.29",
-    "webpack": "2.7.0"
+    "webpack": "4.20.2"
   },
   "dependencies": {
     "algolia-aerial": "^1.5.3",
