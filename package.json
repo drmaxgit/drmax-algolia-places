@@ -1,5 +1,5 @@
 {
-  "name": "places.js",
+  "name": "drmax-places.js",
   "version": "1.11.0",
   "description": "🌐 Turn any <input> into an address autocomplete.",
   "main": "index.js",
@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "algolia-aerial": "^1.5.3",
-    "algoliasearch": "^3.27.1",
+    "algoliasearch": "https://github.com/drmaxgit/drmax-algoliasearch-client-javascript.git",
     "autocomplete.js": "^0.31.0",
     "events": "^3.0.0",
     "insert-css": "^2.0.0"
