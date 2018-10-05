@@ -19,7 +19,8 @@
     "release": "./scripts/release.sh",
     "test": "jest --bail --no-cache && npm run lint",
     "test:watch": "jest --watch",
-    "test:ci": "./scripts/test-ci.sh"
+    "test:ci": "./scripts/test-ci.sh",
+    "postinstall": "./scripts/build.sh"
   },
   "author": "Algolia (https://www.algolia.com)",
   "homepage": "https://community.algolia.com/places",
