@@ -27,7 +27,12 @@
   "bugs": "https://github.com/algolia/places/issues",
   "repository": "https://github.com/algolia/places",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
+    "algolia-aerial": "^1.5.3",
+    "algoliasearch": "https://github.com/drmaxgit/drmax-algoliasearch-client-javascript.git",
+    "autocomplete.js": "^0.31.0",
+    "events": "^3.0.0",
+    "insert-css": "^2.0.0",
     "algoliasearch-helper": "2.26.1",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
@@ -59,13 +64,6 @@
     "semver": "5.5.1",
     "uglify-js": "2.8.29",
     "webpack": "2.7.0"
-  },
-  "dependencies": {
-    "algolia-aerial": "^1.5.3",
-    "algoliasearch": "https://github.com/drmaxgit/drmax-algoliasearch-client-javascript.git",
-    "autocomplete.js": "^0.31.0",
-    "events": "^3.0.0",
-    "insert-css": "^2.0.0"
   },
   "jest": {
     "testRegex": "\\.test\\.js$",
